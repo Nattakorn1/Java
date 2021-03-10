@@ -27,11 +27,12 @@ public class Java44 {
 		for (int a1 : a) {
 //			System.out.println(a1);
 		}
+		// Lab7
 		//7.1
 		int x = 20;
 		do {
+			System.out.println(x);
 			x -= 1;
-//			System.out.println(x);
 		}while (x != 1);
 		//7.2
 		for (int x1 = 1; x1 <= 10; x1++) {
@@ -41,10 +42,12 @@ public class Java44 {
 //				System.out.println("Odd");
 			}
 		}
+		//Lab8
 		//8.1 a
 		for (int count = 1; count <= 20; count++) {
 		//8.1 b
 			if (count == 11) {
+				//8.1 c
 				System.out.println(count);
 				break;
 			}
